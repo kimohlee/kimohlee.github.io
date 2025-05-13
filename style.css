@@ -1,0 +1,45 @@
+/* tag */
+body {
+  margin: 0;
+  font-size: 20px;
+  color: #47494a;
+  line-height: 1;
+}
+
+div {
+  display: flex;
+}
+
+a {
+  color: #ab0000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* id */
+#container {
+  margin: auto;
+  width: 1000px;
+}
+
+#top {
+  margin-top: 20px;
+}
+
+#title {
+  width: 750px;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}
+
+#login {
+  width: 250px;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+}
