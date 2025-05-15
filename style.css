@@ -23,6 +23,7 @@ a:hover {
 #container {
   margin: auto;
   width: 1000px;
+  flex-direction: column;
 }
 
 #top {
@@ -41,5 +42,65 @@ a:hover {
   width: 250px;
   height: 80px;
   align-items: center;
+  justify-content: center;
+}
+
+#main {
+  margin-top: 40px;
+  flex-direction: row;
+}
+
+#left {
+  flex-direction: column;
+}
+
+#total {
+  width: 400px;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+
+#group {
+  margin-top: 40px;
+  flex-direction: column;
+}
+
+/* class */
+.group-row {
+  width: 400px;
+  height: 40px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.first-row {
+  border-top: 1px solid #e8eaec;
+  border-bottom: 1px solid #6a7883;
+  font-weight: bold;
+}
+
+.middle-row {
+  border-bottom: 1px solid #e8eaec;
+}
+
+.last-row {
+  border-bottom: 1px solid #e8eaec;
+  font-weight: bold;
+}
+
+.group-column {
+  height: 20px;
+  align-items: center;
+}
+
+.group-left {
+  width: 250px;
+}
+
+.group-right {
+  width: 100px;
   justify-content: center;
 }
