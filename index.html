@@ -4,275 +4,200 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>KimOhLee</title>
-    <!-- style start -->
-    <style>
-      body {
-        margin: 0;
-        font-size: 20px;
-        color: #47494a;
-      }
-
-      div {
-        display: flex;
-
-        /* temp */
-        /* background-color: #0002; */
-        /* border: 1px dashed black; */
-      }
-
-      a {
-        color: #ab0000;
-        text-decoration: none;
-      }
-
-      a:hover {
-        text-decoration: underline;
-      }
-
-      .column {
-        flex-direction: column;
-      }
-
-      .row {
-        flex-direction: row;
-      }
-
-      .center {
-        align-items: center;
-        justify-content: center;
-      }
-
-      .bold {
-        font-weight: bold;
-      }
-    </style>
-    <!-- style end -->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- container start -->
-    <div class="column" style="margin: auto; width: 1000px">
+    <div class="ma w1000 column">
       <!-- top start -->
-      <div class="row" style="width: 1000px; height: 100px">
-        <div class="center" style="width: 750px; height: 100px; font-size: 40px">KimOhLee</div>
-        <div class="center" style="width: 250px; height: 100px; color: #ab0000">Login</div>
+      <div class="w1000 h100 row">
+        <div class="w750 h100 center fs40">KimOhLee</div>
+        <div class="w250 h100 center red">Login</div>
       </div>
       <!-- top end -->
       <!-- main start -->
-      <div class="row" style="margin-top: 25px; width: 1000px">
+      <div class="mt25 w1000 row">
         <!-- left start -->
-        <div class="column" style="width: 400px">
+        <div class="w400 column">
           <!-- grade start -->
-          <div class="center" style="width: 400px; font-size: 30px">Total: 100.00 (A)</div>
+          <div class="w400 center fs30">Total: 100.00 (A)</div>
           <!-- grade end -->
           <!-- groups start -->
-          <div class="column" style="margin-top: 50px; width: 400px">
-            <div
-              class="row"
-              style="border-top: 1px solid #e8eaec; border-bottom: 1px solid #6a7883; width: 400px"
-            >
-              <div class="bold" style="padding: 5px; width: 240px">Group</div>
-              <div class="center bold" style="padding: 5px; width: 140px">Weight</div>
+          <div class="mt50 w400 column">
+            <div class="bt w400 row">
+              <div class="p5 w240 bold">Group</div>
+              <div class="p5 w140 center bold">Weight</div>
             </div>
-            <div class="row" style="border-bottom: 1px solid #e8eaec; width: 400px">
-              <div style="padding: 5px; width: 240px">Attendance</div>
-              <div class="center" style="padding: 5px; width: 140px">4%</div>
+            <div class="bb w400 row">
+              <div class="p5 w240">Attendance</div>
+              <div class="p5 w140 center">4%</div>
             </div>
-            <div class="row" style="border-bottom: 1px solid #e8eaec; width: 400px">
-              <div style="padding: 5px; width: 240px">Pre-Lecture Assignments</div>
-              <div class="center" style="padding: 5px; width: 140px">6%</div>
+            <div class="bb w400 row">
+              <div class="p5 w240">Pre-Lecture Assignments</div>
+              <div class="p5 w140 center">6%</div>
             </div>
-            <div class="row" style="border-bottom: 1px solid #e8eaec; width: 400px">
-              <div style="padding: 5px; width: 240px">Lecture Discussions</div>
-              <div class="center" style="padding: 5px; width: 140px">6%</div>
+            <div class="bb w400 row">
+              <div class="p5 w240">Lecture Discussions</div>
+              <div class="p5 w140 center">6%</div>
             </div>
-            <div class="row" style="border-bottom: 1px solid #e8eaec; width: 400px">
-              <div style="padding: 5px; width: 240px">Homework</div>
-              <div class="center" style="padding: 5px; width: 140px">22%</div>
+            <div class="bb w400 row">
+              <div class="p5 w240">Homework</div>
+              <div class="p5 w140 center">22%</div>
             </div>
-            <div class="row" style="border-bottom: 1px solid #e8eaec; width: 400px">
-              <div style="padding: 5px; width: 240px">Dynamic Study Modules</div>
-              <div class="center" style="padding: 5px; width: 140px">10%</div>
+            <div class="bb w400 row">
+              <div class="p5 w240">Dynamic Study Modules</div>
+              <div class="p5 w140 center">10%</div>
             </div>
-            <div class="row" style="border-bottom: 1px solid #e8eaec; width: 400px">
-              <div style="padding: 5px; width: 240px">Quizzes</div>
-              <div class="center" style="padding: 5px; width: 140px">10%</div>
+            <div class="bb w400 row">
+              <div class="p5 w240">Quizzes</div>
+              <div class="p5 w140 center">10%</div>
             </div>
-            <div class="row" style="border-bottom: 1px solid #e8eaec; width: 400px">
-              <div style="padding: 5px; width: 240px">Midterm Exam 1</div>
-              <div class="center" style="padding: 5px; width: 140px">12%</div>
+            <div class="bb w400 row">
+              <div class="p5 w240">Midterm Exam 1</div>
+              <div class="p5 w140 center">12%</div>
             </div>
-            <div class="row" style="border-bottom: 1px solid #e8eaec; width: 400px">
-              <div style="padding: 5px; width: 240px">Midterm Exam 2</div>
-              <div class="center" style="padding: 5px; width: 140px">12%</div>
+            <div class="bb w400 row">
+              <div class="p5 w240">Midterm Exam 2</div>
+              <div class="p5 w140 center">12%</div>
             </div>
-            <div class="row" style="border-bottom: 1px solid #e8eaec; width: 400px">
-              <div style="padding: 5px; width: 240px">Surveys</div>
-              <div class="center" style="padding: 5px; width: 140px">2%</div>
+            <div class="bb w400 row">
+              <div class="p5 w240">Surveys</div>
+              <div class="p5 w140 center">2%</div>
             </div>
-            <div class="row" style="border-bottom: 1px solid #e8eaec; width: 400px">
-              <div style="padding: 5px; width: 240px">Final Exam</div>
-              <div class="center" style="padding: 5px; width: 140px">16%</div>
+            <div class="bb w400 row">
+              <div class="p5 w240">Final Exam</div>
+              <div class="p5 w140 center">16%</div>
             </div>
-            <div class="row" style="border-bottom: 1px solid #e8eaec; width: 400px">
-              <div class="bold" style="padding: 5px; width: 240px">Total</div>
-              <div class="center bold" style="padding: 5px; width: 140px">100%</div>
+            <div class="bb w400 row">
+              <div class="p5 w240 bold">Total</div>
+              <div class="p5 w140 center bold">100%</div>
             </div>
           </div>
           <!-- groups end -->
         </div>
         <!-- left end -->
         <!-- spacer start -->
-        <div style="width: 100px"></div>
+        <div class="w100"></div>
         <!-- spacer end -->
         <!-- right start -->
-        <div class="column" style="width: 500px">
+        <div class="w500 column">
           <!-- attendance start -->
-          <div class="column" style="width: 500px">
-            <div
-              class="row"
-              style="border-top: 1px solid #e8eaec; border-bottom: 1px solid #6a7883; width: 500px"
-            >
-              <div class="bold" style="padding: 5px; width: 290px">Attendance</div>
-              <div class="center bold" style="padding: 5px; width: 190px">100.00%</div>
+          <div class="w500 column">
+            <div class="bt w500 row">
+              <div class="p5 w290 bold">Attendance</div>
+              <div class="p5 w190 center bold">100.00%</div>
             </div>
-            <div class="row" style="border-bottom: 1px solid #e8eaec; width: 500px">
-              <div style="padding: 5px; width: 290px">Attendance</div>
-              <div class="center" style="width: 190px">100 / 100</div>
+            <div class="bb w500 row">
+              <div class="p5 w290">Attendance</div>
+              <div class="w190 center">100 / 100</div>
             </div>
           </div>
           <!-- attendance end -->
           <!-- pre-lecture assignments start -->
-          <div class="column" style="margin-top: 50px; width: 500px">
-            <div
-              class="row"
-              style="border-top: 1px solid #e8eaec; border-bottom: 1px solid #6a7883; width: 500px"
-            >
-              <div class="bold" style="padding: 5px; width: 290px">Pre-Lecture Assignments</div>
-              <div class="center bold" style="padding: 5px; width: 190px">100.00%</div>
+          <div class="mt50 w500 column">
+            <div class="bt w500 row">
+              <div class="p5 w290 bold">Pre-Lecture Assignments</div>
+              <div class="p5 w190 center bold">100.00%</div>
             </div>
-            <div class="row" style="border-bottom: 1px solid #e8eaec; width: 500px">
-              <div style="padding: 5px; width: 290px">Pre-Lecture 1</div>
-              <div class="center" style="width: 190px">10 / 10</div>
+            <div class="bb w500 row">
+              <div class="p5 w290">Pre-Lecture 1</div>
+              <div class="w190 center">10 / 10</div>
             </div>
           </div>
           <!-- pre-lecture assignments end -->
           <!-- lecture discussions start -->
-          <div class="column" style="margin-top: 50px; width: 500px">
-            <div
-              class="row"
-              style="border-top: 1px solid #e8eaec; border-bottom: 1px solid #6a7883; width: 500px"
-            >
-              <div class="bold" style="padding: 5px; width: 290px">Lecture Discussions</div>
-              <div class="center bold" style="padding: 5px; width: 190px">100.00%</div>
+          <div class="mt50 w500 column">
+            <div class="bt w500 row">
+              <div class="p5 w290 bold">Lecture Discussions</div>
+              <div class="p5 w190 center bold">100.00%</div>
             </div>
-            <div class="row" style="border-bottom: 1px solid #e8eaec; width: 500px">
-              <div style="padding: 5px; width: 290px">Discussion 1</div>
-              <div class="center" style="width: 190px">10 / 10</div>
+            <div class="bb w500 row">
+              <div class="p5 w290">Discussion 1</div>
+              <div class="w190 center">10 / 10</div>
             </div>
           </div>
           <!-- lecture discussions end -->
           <!-- homework start -->
-          <div class="column" style="margin-top: 50px; width: 500px">
-            <div
-              class="row"
-              style="border-top: 1px solid #e8eaec; border-bottom: 1px solid #6a7883; width: 500px"
-            >
-              <div class="bold" style="padding: 5px; width: 290px">Homework</div>
-              <div class="center bold" style="padding: 5px; width: 190px">100.00%</div>
+          <div class="mt50 w500 column">
+            <div class="bt w500 row">
+              <div class="p5 w290 bold">Homework</div>
+              <div class="p5 w190 center bold">100.00%</div>
             </div>
-            <div class="row" style="border-bottom: 1px solid #e8eaec; width: 500px">
-              <div style="padding: 5px; width: 290px">Homework 1</div>
-              <div class="center" style="width: 190px">10 / 10</div>
+            <div class="bb w500 row">
+              <div class="p5 w290">Homework 1</div>
+              <div class="w190 center">10 / 10</div>
             </div>
           </div>
           <!-- homework end -->
           <!-- dynamic study modules start -->
-          <div class="column" style="margin-top: 50px; width: 500px">
-            <div
-              class="row"
-              style="border-top: 1px solid #e8eaec; border-bottom: 1px solid #6a7883; width: 500px"
-            >
-              <div class="bold" style="padding: 5px; width: 290px">Dynamic Study Modules</div>
-              <div class="center bold" style="padding: 5px; width: 190px">100.00%</div>
+          <div class="mt50 w500 column">
+            <div class="bt w500 row">
+              <div class="p5 w290 bold">Dynamic Study Modules</div>
+              <div class="p5 w190 center bold">100.00%</div>
             </div>
-            <div class="row" style="border-bottom: 1px solid #e8eaec; width: 500px">
-              <div style="padding: 5px; width: 290px">Dynamic Study Module 1</div>
-              <div class="center" style="width: 190px">10 / 10</div>
+            <div class="bb w500 row">
+              <div class="p5 w290">Dynamic Study Module 1</div>
+              <div class="w190 center">10 / 10</div>
             </div>
           </div>
           <!-- dynamic study modules end -->
           <!-- quizzes start -->
-          <div class="column" style="margin-top: 50px; width: 500px">
-            <div
-              class="row"
-              style="border-top: 1px solid #e8eaec; border-bottom: 1px solid #6a7883; width: 500px"
-            >
-              <div class="bold" style="padding: 5px; width: 290px">Quizzes</div>
-              <div class="center bold" style="padding: 5px; width: 190px">100.00%</div>
+          <div class="mt50 w500 column">
+            <div class="bt w500 row">
+              <div class="p5 w290 bold">Quizzes</div>
+              <div class="p5 w190 center bold">100.00%</div>
             </div>
-            <div class="row" style="border-bottom: 1px solid #e8eaec; width: 500px">
-              <div style="padding: 5px; width: 290px">Quiz 1</div>
-              <div class="center" style="width: 190px">10 / 10</div>
+            <div class="bb w500 row">
+              <div class="p5 w290">Quiz 1</div>
+              <div class="w190 center">10 / 10</div>
             </div>
           </div>
           <!-- quizzes end -->
           <!-- midterm exam 1 start -->
-          <div class="column" style="margin-top: 50px; width: 500px">
-            <div
-              class="row"
-              style="border-top: 1px solid #e8eaec; border-bottom: 1px solid #6a7883; width: 500px"
-            >
-              <div class="bold" style="padding: 5px; width: 290px">Midterm Exam 1</div>
-              <div class="center bold" style="padding: 5px; width: 190px">100.00%</div>
+          <div class="mt50 w500 column">
+            <div class="bt w500 row">
+              <div class="p5 w290 bold">Midterm Exam 1</div>
+              <div class="p5 w190 center bold">100.00%</div>
             </div>
-            <div class="row" style="border-bottom: 1px solid #e8eaec; width: 500px">
-              <div style="padding: 5px; width: 290px">Midterm Exam 1</div>
-              <div class="center" style="width: 190px">100 / 100</div>
+            <div class="bb w500 row">
+              <div class="p5 w290">Midterm Exam 1</div>
+              <div class="w190 center">100 / 100</div>
             </div>
           </div>
           <!-- midterm exam 1 end -->
           <!-- midterm exam 2 start -->
-          <div class="column" style="margin-top: 50px; width: 500px">
-            <div
-              class="row"
-              style="border-top: 1px solid #e8eaec; border-bottom: 1px solid #6a7883; width: 500px"
-            >
-              <div class="bold" style="padding: 5px; width: 290px">Midterm Exam 2</div>
-              <div class="center bold" style="padding: 5px; width: 190px">100.00%</div>
+          <div class="mt50 w500 column">
+            <div class="bt w500 row">
+              <div class="p5 w290 bold">Midterm Exam 2</div>
+              <div class="p5 w190 center bold">100.00%</div>
             </div>
-            <div class="row" style="border-bottom: 1px solid #e8eaec; width: 500px">
-              <div style="padding: 5px; width: 290px">Midterm Exam 2</div>
-              <div class="center" style="width: 190px">100 / 100</div>
+            <div class="bb w500 row">
+              <div class="p5 w290">Midterm Exam 2</div>
+              <div class="w190 center">100 / 100</div>
             </div>
           </div>
           <!-- midterm exam 2 end -->
           <!-- surveys start -->
-          <div class="column" style="margin-top: 50px; width: 500px">
-            <div
-              class="row"
-              style="border-top: 1px solid #e8eaec; border-bottom: 1px solid #6a7883; width: 500px"
-            >
-              <div class="bold" style="padding: 5px; width: 290px">Surveys</div>
-              <div class="center bold" style="padding: 5px; width: 190px">100.00%</div>
+          <div class="mt50 w500 column">
+            <div class="bt w500 row">
+              <div class="p5 w290 bold">Surveys</div>
+              <div class="p5 w190 center bold">100.00%</div>
             </div>
-            <div class="row" style="border-bottom: 1px solid #e8eaec; width: 500px">
-              <div style="padding: 5px; width: 290px">Survey 1</div>
-              <div class="center" style="width: 190px">10 / 10</div>
+            <div class="bb w500 row">
+              <div class="p5 w290">Survey 1</div>
+              <div class="w190 center">10 / 10</div>
             </div>
           </div>
           <!-- surveys end -->
           <!-- final exam start -->
-          <div class="column" style="margin-top: 50px; width: 500px">
-            <div
-              class="row"
-              style="border-top: 1px solid #e8eaec; border-bottom: 1px solid #6a7883; width: 500px"
-            >
-              <div class="bold" style="padding: 5px; width: 290px">Final Exam</div>
-              <div class="center bold" style="padding: 5px; width: 190px">100.00%</div>
+          <div class="mt50 w500 column">
+            <div class="bt w500 row">
+              <div class="p5 w290 bold">Final Exam</div>
+              <div class="p5 w190 center bold">100.00%</div>
             </div>
-            <div class="row" style="border-bottom: 1px solid #e8eaec; width: 500px">
-              <div style="padding: 5px; width: 290px">Final Exam</div>
-              <div class="center" style="width: 190px">100 / 100</div>
+            <div class="bb w500 row">
+              <div class="p5 w290">Final Exam</div>
+              <div class="w190 center">100 / 100</div>
             </div>
           </div>
           <!-- final exam end -->
@@ -281,7 +206,7 @@
       </div>
       <!-- main end -->
       <!-- bottom start -->
-      <div class="center" style="margin-top: 25px; width: 1000px; height: 100px">
+      <div class="mt25 w1000 h100 center">
         <a href="https://github.com/kimohlee/kimohlee.github.io" target="_blank">
           &copy; 2025 Ye-Hwan Kim, Jaehyeok Oh, and Siyun Lee
         </a>
