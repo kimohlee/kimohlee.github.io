@@ -1,0 +1,126 @@
+/* html tag */
+body {
+  margin: 0;
+  font-size: 20px;
+  color: #47494a;
+}
+
+div {
+  display: flex;
+}
+
+a {
+  color: #ab0000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* margin */
+.ma {
+  margin: auto;
+}
+
+.mt25 {
+  margin-top: 25px;
+}
+
+.mt50 {
+  margin-top: 50px;
+}
+
+/* border */
+.bt {
+  border-top: 1px solid #e8eaec;
+  border-bottom: 1px solid #6a7883;
+}
+
+.bb {
+  border-bottom: 1px solid #e8eaec;
+}
+
+/* padding */
+.p5 {
+  padding: 5px;
+}
+
+/* width */
+.w100 {
+  width: 100px;
+}
+
+.w140 {
+  width: 140px;
+}
+
+.w190 {
+  width: 190px;
+}
+
+.w240 {
+  width: 240px;
+}
+
+.w250 {
+  width: 250px;
+}
+
+.w290 {
+  width: 290px;
+}
+
+.w400 {
+  width: 400px;
+}
+
+.w500 {
+  width: 500px;
+}
+
+.w750 {
+  width: 750px;
+}
+
+.w1000 {
+  width: 1000px;
+}
+
+/* height */
+.h100 {
+  height: 100px;
+}
+
+/* flex */
+.column {
+  flex-direction: column;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.center {
+  align-items: center;
+  justify-content: center;
+}
+
+/* font size */
+.fs30 {
+  font-size: 30px;
+}
+
+.fs40 {
+  font-size: 40px;
+}
+
+/* font weight */
+.bold {
+  font-weight: bold;
+}
+
+/* font color */
+.red {
+  color: #ab0000;
+}
