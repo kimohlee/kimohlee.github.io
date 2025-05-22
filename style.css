@@ -48,6 +48,7 @@ a:hover {
 #main {
   margin-top: 40px;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 #left {
@@ -67,13 +68,20 @@ a:hover {
   flex-direction: column;
 }
 
+#right {
+  flex-direction: column;
+}
+
 /* class */
-.group-row {
-  width: 400px;
+.table-row {
   height: 40px;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+}
+
+.group-row {
+  width: 400px;
 }
 
 .first-row {
@@ -87,11 +95,12 @@ a:hover {
 }
 
 .last-row {
+  margin-bottom: 40px;
   border-bottom: 1px solid #e8eaec;
   font-weight: bold;
 }
 
-.group-column {
+.table-column {
   height: 20px;
   align-items: center;
 }
@@ -102,5 +111,37 @@ a:hover {
 
 .group-right {
   width: 100px;
+  justify-content: center;
+}
+
+.score {
+  flex-direction: column;
+}
+
+.score-row {
+  width: 500px;
+}
+
+.score-left {
+  width: 250px;
+}
+
+.score-right-first {
+  width: 200px;
+  justify-content: center;
+}
+
+.score-right {
+  width: 200px;
+  justify-content: space-between;
+}
+
+.score-right-score {
+  width: 80px;
+  justify-content: center;
+}
+
+.score-right-slash {
+  width: 10px;
   justify-content: center;
 }
