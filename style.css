@@ -72,6 +72,14 @@ a:hover {
   flex-direction: column;
 }
 
+#bottom {
+  margin-bottom: 20px;
+  width: 1000px;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+}
+
 /* class */
 .table-row {
   height: 40px;
